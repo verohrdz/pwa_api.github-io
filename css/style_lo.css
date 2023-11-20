@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../imagenes/fondologin.png');
+    background-size: 100% 100%;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+#loginForm {
+    background-color: #f7a950;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px; 
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ddd; 
+    border-radius: 8px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    padding: 16px; 
+    border: none;
+    border-radius: 8px; 
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

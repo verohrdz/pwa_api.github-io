@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../imagenes/fondo.png');
+    background-size: 100% 125%;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+#crud-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.485);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#crud-form {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#tabla-frutas {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabla-frutas th, #tabla-frutas td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#tabla-frutas th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#eliminar-btn {
+    background-color: #ff3333;
+}
+
+#editar-btn {
+    background-color: #337ab7;
+}

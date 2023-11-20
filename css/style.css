@@ -1,0 +1,92 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../imagenes/fondo.png');
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.255);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff50;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#fruitInfo img {
+    max-width: 100%; 
+    max-height: 300px; 
+    width: auto; 
+    height: auto; 
+    display: block; 
+    margin: 10px 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #256d28;
+}
+
+#fruitInfo {
+    margin-top: 20px;
+}
+
+#notificaciones {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#notificaciones:hover {
+    background-color: #144d72;
+}
+
+#regresar {
+    padding: 10px;
+    background-color: rgb(252, 9, 9);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#regresar:hover {
+    background-color: rgb(89, 5, 5);
+}

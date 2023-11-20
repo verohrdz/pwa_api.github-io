@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administrador</title>
+    <link rel="stylesheet" href="css/style_admin.css">
+</head>
+<body>
+
+    <h2>Bienvenido Administrador</h2><br> 
+    <center><a href="splash.html" >Inicio</a></center>
+    
+    
+    <div id="crud-container">
+        <form id="crud-form">
+            <label for="nombre">Nombre de la Fruta:</label>
+            
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="datosInteresantes">Datos Interesantes:</label>
+            <textarea id="datosInteresantes" name="datosInteresantes" required></textarea>
+
+            <button type="submit">Guardar</button>
+            <button type="button" id="eliminar-btn">Eliminar</button>
+            <button type="button" id="editar-btn">Editar</button>
+            
+        </form>
+
+        <table id="tabla-frutas">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre de la Fruta</th>
+                    <th>Datos Interesantes</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="scripts/script_admin.js"></script>
+</body>
+</html>
